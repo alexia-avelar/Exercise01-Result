@@ -8,7 +8,7 @@ while continuar == "si" :
     costo = float(input("Costo ($0.00): "))
     registro = dict(cliente=cliente, producto=producto, costo=costo)
     listaRegistro.append(registro)
-    print("Si desea ingresar los datos de un nuevo cliente: Escriba 0 para continuar, caso contrario ingrese cualquier otro número")
+    print("Si desea ingresar los datos de un nuevo cliente: Escriba si para continuar, caso contrario ingrese cualquier otro cadena de texto")
     continuar= input("¿Desea continuar? ")
     costototal = costototal+costo
 
